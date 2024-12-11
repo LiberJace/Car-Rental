@@ -520,13 +520,15 @@ header{
 
 .testimonial{
     max-width: 540px;
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 56px;
-    gap: 50px;
+    padding: 32px;
+    gap: 40px;
     box-shadow:0 20px 40px 0 #ff4d30;
     border-radius: 10px;
+    
 }
 
 .testimonial_review{
@@ -542,8 +544,8 @@ header{
 
 .testimonial_icon{
     color: #ff4d30;
-    font-size: 60px;
-    margin-left: 120px;
+    font-size: 48px;
+    margin-left: auto;
 }
 
 .testimonial_name{
@@ -823,7 +825,12 @@ header{
     }
 
     .testimonial{
-        padding: 18px;
+        padding: 32px;
+        height: ;
+        
+    }
+    .testimonial_review{
+        font-size: 18px;
     }
 }
 
@@ -832,12 +839,14 @@ header{
     .testimonial_list{
         display: flex;
         gap: 32px;
+        
     }
 
     .testimonial{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
     
@@ -872,3 +881,11 @@ header{
 }
 
 
+
+
+@media (max-width:375px){
+    .testimonial{
+        max-width: 322px;
+    }
+  
+}
